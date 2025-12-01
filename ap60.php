@@ -20,5 +20,9 @@ class Coche{
         $this->modelo = $modelo;
     }
 }
+$coche = new Coche("Toyota", "Corolla");
 
+//PROGRAMA PRINCIPAL. EJERCICIO 3
+$coche1=new Coche();
+$coche1->setMarca("Ferrari");
 ?>
