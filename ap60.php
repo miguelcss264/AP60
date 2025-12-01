@@ -20,9 +20,19 @@ class Coche{
         $this->modelo = $modelo;
     }
 }
-$coche = new Coche("Toyota", "Corolla");
 
-//PROGRAMA PRINCIPAL. EJERCICIO 3
+class CuentaBancaria{
+    private $titular;
+    private $saldo;
+
+    function __construct($titular, $saldo){
+        $this->titular = $titular;
+        $this->saldo = $saldo;
+    }
+    
+}
+//PROGRAMA PRINCIPAL.
+$coche = new Coche("Toyota", "Corolla");
 $coche1=new Coche();
 $coche1->setMarca("Ferrari");
 ?>
